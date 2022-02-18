@@ -1,9 +1,1 @@
-# Kelompok-6
-# Kelompok6
-# Kelompok6
-# Kelompok6
-# Kelompok6
-# Kelompok6
-# Kelompok6
-# Kelompok6
-# Kelompok-6
+Selamat Datang Di Repository Kelompok 6
