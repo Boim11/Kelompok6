@@ -1,0 +1,300 @@
+{
+  "id": "65113512-191b-4f50-8061-fae5d83b74e4",
+  "version": "2.0",
+  "name": "test-case-kel6",
+  "url": "http://localhost/Login/Arsha/index.php",
+  "tests": [{
+    "id": "9a1441e3-d98d-46a8-aea6-5be0e4475725",
+    "name": "test-home",
+    "commands": [{
+      "id": "5579219c-4746-4e5c-a8ea-f8397a2a5e60",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Login/Arsha/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15d92ebe-1780-45af-afd8-71a115a90ed0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09b0e3c2-615c-4538-9116-039650f2daea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Beranda",
+      "targets": [
+        ["linkText=Beranda", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Beranda')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#hero')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beranda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "542d6e10-0d17-4740-b095-e5528bd08da2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tentang Kita",
+      "targets": [
+        ["linkText=Tentang Kita", "linkText"],
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Tentang Kita')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#about')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tentang Kita')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b2a2a93-7bdb-4bd2-ab6d-c3425ea2afa4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dokter",
+      "targets": [
+        ["linkText=Dokter", "linkText"],
+        ["css=li:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Dokter')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#team')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dokter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3cefc0a-d506-4e3e-8b20-50db48ea7c7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rawat Inap",
+      "targets": [
+        ["linkText=Rawat Inap", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Rawat Inap')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rawat Inap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85d173b4-20ae-4423-b64e-31331a109431",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hubungi",
+      "targets": [
+        ["linkText=Hubungi", "linkText"],
+        ["css=li:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Hubungi')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#contact')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hubungi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93d3d852-d468-4596-a63c-e32da35710cc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7de4ec96-b4f1-4555-8329-ad6326182ef8",
+    "name": "test-login",
+    "commands": [{
+      "id": "2ad2e6e3-d555-477a-81b2-1d4e68178af6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Login/Arsha/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1aead87-3acc-4cfe-aba5-5b52bcf3f055",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05d07eb3-5dcc-4a29-94a3-cd0c527fe895",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=li:nth-child(6) > .getstarted", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../index.php')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08991eae-521f-4315-b7dd-fc804f1021dc",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-label-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "brilian"
+    }, {
+      "id": "7eabe3ca-5d83-420f-9215-7da62f2de1e6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-label-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "brilian"
+    }, {
+      "id": "252e7020-eaa4-49ad-a707-866884be5b41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "793ad550-71fb-4b92-a8fd-5940e134ce20",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-label-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "brilian"
+    }, {
+      "id": "e29a5786-e3e3-48af-9580-fddccb9bd225",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-label-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "brilian"
+    }, {
+      "id": "882bebd5-9292-4d7f-9fea-880e9cc2ed35",
+      "comment": "",
+      "command": "select",
+      "target": "name=level",
+      "targets": [],
+      "value": "label=Dokter/Karyawan"
+    }, {
+      "id": "8ee4179c-d404-4cd2-91f0-3b42b1620b08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36a625b-afed-4805-9713-17c5c1d8d8f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb2c98a-b255-4807-9a48-9198972302cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'logout.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62e7c965-0ba2-43ce-bfcd-8dfb18d30660",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ab87861f-e7f9-44b2-80b5-585202a459a1",
+    "name": "test-session-fitur",
+    "commands": [{
+      "id": "fb479f51-7321-48cb-a331-d481fa07e597",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Login/Arsha/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74c8dcf6-bc70-428d-9cb6-7ce4c62798f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d0bc92f-6521-4617-b019-4abcfd86fdfb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=li:nth-child(6) > .getstarted", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../index.php')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec5e0809-8e95-4ba3-9fcf-b9c7295b6618",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "227ad25a-7f1a-49c7-bd17-8d7a9844a231",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a1441e3-d98d-46a8-aea6-5be0e4475725"]
+  }],
+  "urls": [],
+  "plugins": []
+}
